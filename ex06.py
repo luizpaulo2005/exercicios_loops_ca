@@ -1,5 +1,3 @@
-# Crie uma lista com 100 números aleatórios. Percorra esta lista e imprima a posição e o valor do primeiro elemento contido na lista que seja par, e a posição e o valor do elemento imediatamente após este elemento.
-
 from random import randint
 
 lista = [randint(1, 100) for i in range(100)]
